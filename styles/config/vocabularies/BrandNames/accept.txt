@@ -1,0 +1,2 @@
+^(WATcloud|watcloud)(['’]s)?$
+^(WATonomous|watonomous)(['’]s)?$
