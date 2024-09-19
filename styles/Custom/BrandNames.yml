@@ -1,8 +1,0 @@
-# Correct capitalization of brand/organization names
-
-extends: substitution
-message: "Incorrect capitalization. Use either '%s' or '%s'."
-level: error
-swap:
-  '(?!WATcloud|watcloud)\b[Ww][Aa][Tt][Cc][Ll][Oo][Uu][Dd]\b': WATcloud|watcloud
-  '(?!WATonomous|watonomous)\b[Ww][Aa][Tt][Oo][Nn][Oo][Mm][Oo][Uu][Ss]\b': WATonomous|watonomous

@@ -1,0 +1,10 @@
+extends: substitution
+message: "Consider using '%s' instead of '%s' for clarity in data units, unless you're specifically referring to SI units."
+level: suggestion
+ignorecase: false
+swap:
+  '\bMB\b': MiB
+  '\bGB\b': GiB
+  '\bTB\b': TiB
+  '\bPB\b': PiB
+  '\bEB\b': EiB

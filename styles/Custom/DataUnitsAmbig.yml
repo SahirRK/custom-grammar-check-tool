@@ -1,0 +1,11 @@
+# Flag ambiguous units as errors
+extends: existence
+message: "Use of '%s' could be unclear. Make sure you have specified whether you mean SI units (MB, GB) or binary units (MiB, GiB)."
+level: error
+ignorecase: false
+tokens:
+  - '\bmb\b'
+  - '\bgb\b'
+  - '\btb\b'
+  - '\bpb\b'
+  - '\beb\b'
