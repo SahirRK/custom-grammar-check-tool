@@ -1,0 +1,25 @@
+# Data Unit related style rules
+
+# Suggest use of IEC unts intead of SI units
+extends: substitution
+message: "Consider using '%s' instead of '%s' for clarity in data units, unless you're specifically referring to SI units."
+level: suggestion
+ignorecase: false
+swap:
+  '\bMB\b': MiB
+  '\bGB\b': GiB
+  '\bTB\b': TiB
+  '\bPB\b': PiB
+  '\bEB\b': EiB
+
+# Flag ambiguous units as errors
+extends: existence
+message: "Use of '%s' is ambiguous. Specify whether you mean SI units (MB, GB) or binary units (MiB, GiB)."
+level: error
+ignorecase: true
+tokens:
+  - '\bmb\b'
+  - '\bgb\b'
+  - '\btb\b'
+  - '\bpb\b'
+  - '\beb\b'
