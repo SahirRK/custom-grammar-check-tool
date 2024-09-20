@@ -2,9 +2,7 @@ extends: existence
 message: "Use either 'WATonomous' or 'watonomous' for correct brand capitalization."
 level: error
 tokens:
-  - '(?i)wat ?onomous(?!(''s|\b))'
+- '(?i)wat ?onomous'
 exceptions:
-  - WATonomous
-  - watonomous
-  - WATonomous's
-  - watonomous's
+- WATonomous
+- watonomous

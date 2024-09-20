@@ -20,6 +20,7 @@
 - WATcloud'S
 - Watcloud's
 - watCloud'S
+- watcloudS
 
 # Testing WATonomous and watonomous Variants
 
@@ -39,6 +40,8 @@
 - WATONOMOUS
 - watONOMOUS
 - WatONOMOUS
+- watonomouses
+- WATonomouses
 - watOnomous's
 - WATonomous'S
 - Watonomous's
