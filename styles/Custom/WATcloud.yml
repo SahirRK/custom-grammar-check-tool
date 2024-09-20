@@ -1,9 +1,10 @@
 extends: existence
 message: "Use either 'WATcloud' or 'watcloud' for correct brand capitalization."
 level: error
-ignorecase: true
 tokens:
-  - '(?i)wat ?cloud'
+  - '(?i)wat ?cloud(?!(''s|\b))'
 exceptions:
   - WATcloud
   - watcloud
+  - WATcloud's
+  - watcloud's
