@@ -26,6 +26,11 @@ jobs:
           
           echo "No dependencies to install."
 
+      - name: Install Docker Compose
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker-compose
+      
       - name: Run Vale Tests
         run: |
           chmod +x scripts/run-vale-no-sync.sh  
