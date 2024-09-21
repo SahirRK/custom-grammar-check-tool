@@ -29,6 +29,6 @@ jobs:
       - name: Run Vale Tests
         run: |
           chmod +x scripts/run-vale-no-sync.sh  
-          chmo +x scripts/run-vale.sh
+          chmod +x scripts/run-vale.sh
           scripts/run-vale.sh sync
           python3 tests/test_vale_rules.py  
