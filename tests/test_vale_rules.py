@@ -2,6 +2,7 @@ import os
 import subprocess
 import json
 import re
+import sys
 
 def run_vale(file_path):
     run_vale_script = os.path.join('scripts', 'run-vale-no-sync.sh')
@@ -136,6 +137,10 @@ def test_vale_rules():
         print("\nAll tests passed. FINAL STATUS: PASS")
     else:
         print("\nSome tests failed. FINAL STATUS: FAIL")
-
+    
+    return overall_pass
 if __name__ == "__main__":
-    test_vale_rules()
+    if test_vale_rules():
+        sys.exit(0)
+    else:
+        sys.exit(1)
