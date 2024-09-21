@@ -1,0 +1,9 @@
+# RejectPluralization.yml
+extends: existence
+message: "'%s' is an incorrect pluralization. Do not pluralize 'WATcloud' or 'WATonomous'."
+level: error
+scope: text
+ignorecase: true
+
+tokens:
+  - \b(?:WATcloud|WATonomous)(?:s|es)\b
