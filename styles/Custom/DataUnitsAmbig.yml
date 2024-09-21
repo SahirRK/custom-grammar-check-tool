@@ -4,8 +4,4 @@ message: "Use of '%s' is unclear. Make sure you have specified whether you mean 
 level: error
 ignorecase: false
 tokens:
-  - '\bmb\b'
-  - '\bgb\b'
-  - '\btb\b'
-  - '\bpb\b'
   - '\beb\b'
