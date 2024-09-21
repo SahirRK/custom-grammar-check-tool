@@ -1,6 +1,6 @@
 # Flag ambiguous units as errors
 extends: existence
-message: "Use of '%s' could be unclear. Make sure you have specified whether you mean SI units (MB, GB) or binary units (MiB, GiB)."
+message: "Use of '%s' is unclear. Make sure you have specified whether you mean SI or IEC units in bits or bytes respectively."
 level: error
 ignorecase: false
 tokens:

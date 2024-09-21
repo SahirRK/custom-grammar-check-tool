@@ -1,0 +1,12 @@
+{
+    "BrandNames.md": {
+        "Custom.WATcloud": 10,
+        "Custom.RejectPlurals": 4,
+        "Custom.PossessiveCapitalization": 4,
+        "Custom.WATonomous": 12
+    },
+    "DataUnits.md": {
+        "Custom.DataUnitsSwap": 12,
+        "Custom.DataUnitsAmbig": 2
+    }
+}

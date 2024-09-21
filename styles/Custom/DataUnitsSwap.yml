@@ -3,8 +3,17 @@ message: "Consider using '%s' instead of '%s' for clarity in data units, unless 
 level: suggestion
 ignorecase: false
 swap:
+  '\bKB\b': KiB
   '\bMB\b': MiB
   '\bGB\b': GiB
   '\bTB\b': TiB
   '\bPB\b': PiB
   '\bEB\b': EiB
+  '\bYB\b': YiB
+  '\bMb\b': Mib
+  '\bKb\b': Kib
+  '\bGb\b': Gib
+  '\bTb\b': Tib
+  '\bPb\b': Pib
+  '\bEb\b': Eib
+  '\bYb\b': Yib
