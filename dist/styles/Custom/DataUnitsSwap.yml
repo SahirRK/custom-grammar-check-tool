@@ -1,0 +1,7 @@
+extends: substitution
+message: "Consider using '%s' instead of '%s' for clarity in data units, unless you're specifically referring to SI units."
+level: suggestion
+ignorecase: false
+swap:
+  '\bKB\b': KiB
+

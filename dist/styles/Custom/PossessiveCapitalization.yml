@@ -1,0 +1,8 @@
+extends: substitution
+message: "Incorrect use of 'S' for possession. Use lowercase 's for possession instead."
+level: error
+ignorecase: false
+
+# Swap maps for substitutions
+swap:
+  "'S": "'s"

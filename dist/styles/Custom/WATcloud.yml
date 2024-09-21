@@ -1,0 +1,10 @@
+extends: existence
+message: "Use either 'WATcloud' or 'watcloud' for correct brand capitalization."
+level: error
+tokens:
+  - '(?i)wat ?cloud'
+exceptions:
+  - WATcloud
+  - watcloud
+
+  
