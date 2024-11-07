@@ -1,3 +1,0 @@
-^(WATcloud)(['']s)?$
-^(WATonomous)(['']s|es)?$
-

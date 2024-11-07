@@ -1,8 +1,0 @@
-extends: existence
-message: "Use either 'WATonomous' or 'watonomous' for correct brand capitalization."
-level: error
-tokens:
-- '(?i)wat ?ono876s'
-exceptions:
-- WATonomous
-- watonomous

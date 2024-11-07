@@ -116,7 +116,7 @@ This structure separates vocabularies from custom grammar rules:
 
 ## Running Tests Locally
 
-To validate the custom rules, the repository includes test files. You can run the tests locally with the following command:
+To validating the custom rules, the repository includes test files. You can run the tests locally with the following command:
 
 ```bash
 python3 scripts/test_vale_rules.py
