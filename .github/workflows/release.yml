@@ -16,7 +16,7 @@ jobs:
       - name: Create Release Package
         run: |
           mkdir -p release-files/styles
-          cp -r styles/custom styles/config release-files/styles/
+          cp -r styles/Custom styles/config release-files/styles/
           cp .vale.ini release-files/
           cd release-files
           zip -r ../vale-config.zip ./*
